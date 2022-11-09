@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server
+          uri: https://github.com/camilo199811/Microservicios-CursoSpring
+          search-paths: config-data
+  application:
+    name: Config-service
+
