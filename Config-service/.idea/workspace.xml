@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f66a054-b3c4-4e5e-8653-e5bf87ce3df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/Controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/Controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/Service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/Service/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/configuration/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/configuration/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/feignclients/CarroFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/feignclients/CarroFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/feignclients/MotoFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/java/com/example/microservicesusuario_service/feignclients/MotoFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServicesUsuario_service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
