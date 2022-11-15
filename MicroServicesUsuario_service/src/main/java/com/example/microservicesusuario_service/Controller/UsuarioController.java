@@ -64,20 +64,23 @@ public class UsuarioController {
         List<Moto> motos=usuarioService.getMotos(id);
         return ResponseEntity.ok(motos);
     }
-    @CircuitBreaker(name = "carrosCB",fallbackMethod = "fallBackSaveCarro")
+
     @PostMapping("/carro/{usuarioId}")
+    @CircuitBreaker(name = "carrosCB",fallbackMethod = "fallBackSaveCarro")
     public ResponseEntity<Carro> guardarCarro(@PathVariable("usuarioId" ) int usuarioId,@RequestBody Carro carro ){
         Carro nuevoCarro=usuarioService.saveCarro(usuarioId,carro);
         return ResponseEntity.ok(nuevoCarro);
     }
-    @CircuitBreaker(name = "motosCB",fallbackMethod = "fallBackSaveMoto")
+
     @PostMapping("/moto/{usuarioId}")
+    @CircuitBreaker(name = "motosCB",fallbackMethod = "fallBackSaveMoto")
     public ResponseEntity<Moto> guardarMoto(@PathVariable("usuarioId" ) int usuarioId,@RequestBody Moto moto ){
         Moto nuevaMoto=usuarioService.saveMoto(usuarioId,moto);
         return ResponseEntity.ok(nuevaMoto);
     }
-    @CircuitBreaker(name = "todosCB",fallbackMethod = "fallBackGetTodos")
+
     @GetMapping("/todos/{usuarioId}")
+    @CircuitBreaker(name = "todosCB",fallbackMethod = "fallBackGetTodos")
     public ResponseEntity<Map<String,Object>> listarTodosLosVehiculos(@PathVariable("usuarioId" ) int usuarioId){
         Map<String,Object> resultado=usuarioService.getUsuariosAndVehiculos(usuarioId);
         return ResponseEntity.ok(resultado);
